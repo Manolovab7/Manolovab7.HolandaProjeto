@@ -1,0 +1,86 @@
+/* Do * até o final do css do header h1, será igual para Holanda, Cultura, Economia e Futebol*/
+*{
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    height: 70px;
+    background-color:#d95757;
+}
+
+header h1{
+    display: block;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0px rgb(22, 22, 87), 
+    -2px 2px 1px rgb(22, 22, 87),                    
+     1px -1px 0px rgb(22, 22, 87),                  
+     1px 0px 0px rgb(22, 22, 87);
+}
+
+section{
+    margin: 50px;
+    width: 50%;
+    text-align: center;
+    display: inline-flex;
+}
+.caixas{
+    position: relative;
+    left: 43%;
+    border: 5px solid #424242;
+    border-radius: 5px;
+    padding: 15px;
+}
+.caixas p{
+    position:relative;
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    top: 13px;
+    text-align: justify;
+    background-color: #de7e7e;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.caixas img{
+    float:top;
+    width: auto;
+    max-width: 350px;
+    width: 250px;
+    height: 25vh;
+}
+
+figcaption{
+    font-size: small;
+}
+
+h2{
+    padding: 20px;
+}
+
+.rodape h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.rodape ul{
+    padding: 60px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    background-color: #0D60B7;
+}
+
+.rodape div ul li{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
